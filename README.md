@@ -10,5 +10,5 @@ Docker image for DriveSync. You can find images on docker hub [jpreuss/drivesync
 To use, simply run:
 
 ```shell
-$ docker run --rm -v $PWD:/sync -v $PWD/config.yml:/root/.drivesync/config.yml jpreuss/drivesync
+$ docker run --rm -ti -v $PWD:/sync -v $PWD/config.yml:/root/.drivesync/config.yml $PWD/credentials.yml:/root/.credentials/drivesync.yaml jpreuss/drivesync
 ```
