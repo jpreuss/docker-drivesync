@@ -10,3 +10,5 @@ RUN mkdir -p /app && \
 WORKDIR /sync
 
 VOLUME /sync
+
+CMD ["ruby", "/app/drivesync"]
