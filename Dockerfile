@@ -11,4 +11,4 @@ WORKDIR /sync
 
 VOLUME /sync
 
-CMD ["ruby", "/app/drivesync"]
+CMD ["ruby", "/app/drivesync.rb"]
